@@ -14,18 +14,23 @@ import org.testng.Assert;
  **/
 
 public class MyStepdefs {
+
+
     @Given("^I am on home page$")
-    public void iAmOnHomePage() {
+    public void i_am_on_home_page()  {
+        // Write code here that turns the phrase above into concrete actions
+
     }
 
     @When("^I click on Login Link$")
-    public void iClickOnLoginLink() {
+    public void i_click_on_Login_Link() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
         new HomePage().clickOnLoginLink();
     }
 
     @Then("^I should Navigate to login page successfully$")
-    public void iShouldNavigateToLoginPageSuccessfully() {
+    public void i_should_Navigate_to_login_page_successfully() {
+        // Write code here that turns the phrase above into concrete actions
         Assert.assertEquals("Welcome, Please Sign In!", new LoginPage().welcomeText());
-
     }
 }

@@ -1,64 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/nopcommerce/demo/resources/featurefiles/login.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Nopp commerce Demo Login Feature",
-  "description": "As a user I should successfully Navigate to Login page",
-  "id": "nopp-commerce-demo-login-feature",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 8872635100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 4,
-  "name": "User should Navigate to Login page successfully",
-  "description": "",
-  "id": "nopp-commerce-demo-login-feature;user-should-navigate-to-login-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "I am on home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I click on Login Link",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "I should Navigate to login page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MyStepdefs.iAmOnHomePage()"
-});
-formatter.result({
-  "duration": 257494300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyStepdefs.iClickOnLoginLink()"
-});
-formatter.result({
-  "duration": 1472691100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyStepdefs.iShouldNavigateToLoginPageSuccessfully()"
-});
-formatter.result({
-  "duration": 74370700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 777497400,
-  "status": "passed"
-});
-formatter.uri("src/test/java/com/nopcommerce/demo/resources/featurefiles/register.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/Paavan/IdeaProjects/Cucumber Projects/sample-maven-project/src/test/java/com/nopcommerce/demo/resources/featurefiles/register.feature");
 formatter.feature({
   "line": 1,
   "name": "Nop Commerce Demo Register Feature",
@@ -67,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5788098300,
+  "duration": 8876506000,
   "status": "passed"
 });
 formatter.scenario({
@@ -149,17 +89,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefs.iAmOnHomePage()"
+  "location": "MyStepdefs.i_am_on_home_page()"
 });
 formatter.result({
-  "duration": 68100,
+  "duration": 322359500,
   "status": "passed"
 });
 formatter.match({
   "location": "Register_stepDefs.i_click_on_Register_Link()"
 });
 formatter.result({
-  "duration": 1797428200,
+  "duration": 1668473600,
   "status": "passed"
 });
 formatter.match({
@@ -172,7 +112,7 @@ formatter.match({
   "location": "Register_stepDefs.i_select_Gender_radio_button(String)"
 });
 formatter.result({
-  "duration": 131465800,
+  "duration": 128096000,
   "status": "passed"
 });
 formatter.match({
@@ -185,7 +125,7 @@ formatter.match({
   "location": "Register_stepDefs.i_Enter_first_name_into_first_name_field(String)"
 });
 formatter.result({
-  "duration": 330466600,
+  "duration": 185215300,
   "status": "passed"
 });
 formatter.match({
@@ -198,7 +138,7 @@ formatter.match({
   "location": "Register_stepDefs.i_Enter_Last_Name_into_last_name_field(String)"
 });
 formatter.result({
-  "duration": 327662800,
+  "duration": 154930200,
   "status": "passed"
 });
 formatter.match({
@@ -211,7 +151,7 @@ formatter.match({
   "location": "Register_stepDefs.i_Select_Day_from_Date_of_Birth(String)"
 });
 formatter.result({
-  "duration": 302584300,
+  "duration": 217634300,
   "status": "passed"
 });
 formatter.match({
@@ -224,7 +164,7 @@ formatter.match({
   "location": "Register_stepDefs.i_Select_Month_from_Date_of_Birth(String)"
 });
 formatter.result({
-  "duration": 268863700,
+  "duration": 157522000,
   "status": "passed"
 });
 formatter.match({
@@ -237,14 +177,14 @@ formatter.match({
   "location": "Register_stepDefs.i_Select_Year_from_Date_of_Birth(String)"
 });
 formatter.result({
-  "duration": 337834300,
+  "duration": 202023100,
   "status": "passed"
 });
 formatter.match({
   "location": "Register_stepDefs.i_enter_email_address()"
 });
 formatter.result({
-  "duration": 505897800,
+  "duration": 375251300,
   "status": "passed"
 });
 formatter.match({
@@ -257,7 +197,7 @@ formatter.match({
   "location": "Register_stepDefs.i_enter_company_name_int_Company_name_field(String)"
 });
 formatter.result({
-  "duration": 370839600,
+  "duration": 215399400,
   "status": "passed"
 });
 formatter.match({
@@ -270,7 +210,7 @@ formatter.match({
   "location": "Register_stepDefs.i_enter_password_into_password_field(String)"
 });
 formatter.result({
-  "duration": 164594900,
+  "duration": 183279700,
   "status": "passed"
 });
 formatter.match({
@@ -283,25 +223,25 @@ formatter.match({
   "location": "Register_stepDefs.i_enter_Confirm_password_into_confirm_password_field(String)"
 });
 formatter.result({
-  "duration": 136956300,
+  "duration": 154738500,
   "status": "passed"
 });
 formatter.match({
   "location": "Register_stepDefs.i_click_on_register_button()"
 });
 formatter.result({
-  "duration": 1065182000,
+  "duration": 2219841700,
   "status": "passed"
 });
 formatter.match({
   "location": "Register_stepDefs.i_should_register_successfully()"
 });
 formatter.result({
-  "duration": 75909800,
+  "duration": 70373300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 800263400,
+  "duration": 755829500,
   "status": "passed"
 });
 });

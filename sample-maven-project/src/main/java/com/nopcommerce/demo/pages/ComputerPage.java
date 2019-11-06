@@ -1,6 +1,8 @@
 package com.nopcommerce.demo.pages;
 
 import com.nopcommerce.demo.utility.Util;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 
 /**
@@ -11,7 +13,7 @@ import org.openqa.selenium.By;
 
 public class ComputerPage extends Util {
 
-
+    private static final Logger log = LogManager.getLogger(ComputerPage.class.getName());
 
     By computerpagelink = By.xpath("//ul[@class='top-menu notmobile']//a[contains(text(),'Computers')]");
 
@@ -21,23 +23,23 @@ public class ComputerPage extends Util {
 
     By softwarelink = By.xpath("//div[@class='master-wrapper-content']//div[3]//div[1]//div[1]//a[1]//img[1]");
 
-    public void clickOnComputerPage()
-    {
+    public void clickOnComputerPage() {
+        log.info("Clickig on ComputerPage");
         clickOnElement(computerpagelink);
     }
 
-    public void clickOnDesktopLink()
-    {
+    public void clickOnDesktopLink() {
+        log.info("Click on Desktop Link");
         clickOnElement(desktoplink);
     }
 
-    public void clickOnNotebookLink()
-    {
+    public void clickOnNotebookLink() {
+        log.info("Click on Notebook Link");
         clickOnElement(notebooklink);
     }
 
-    public void clickOnSoftwareLink()
-    {
+    public void clickOnSoftwareLink() {
+        log.info("Click on software link");
         clickOnElement(softwarelink);
     }
 }

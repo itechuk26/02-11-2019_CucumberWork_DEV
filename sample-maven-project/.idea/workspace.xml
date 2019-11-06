@@ -42,7 +42,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -69,6 +69,24 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: homepage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/featurefiles/homepage.feature" />
+      <option name="GLUE" value="com.nopcommerce.demo" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="sample-maven-project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: homepage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/featurefiles/login.feature" />
@@ -122,6 +140,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: user should navigate to Different pages of the homepage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/featurefiles/homepage.feature" />
+      <option name="GLUE" value="com.nopcommerce.demo" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="sample-maven-project" />
+      <option name="NAME_FILTER" value="^user should navigate to Different pages of the homepage$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^user should navigate to Different pages of the homepage$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user should navigate to Different pages of the homepage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sample-maven-project" />
       <extension name="coverage">
@@ -137,33 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Paavan/IdeaProjects/sample-nopcommerce-maven-project/sample-maven-project/src/test/java/com/nopcommerce/demo/resources/XMLfiles/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sample-maven-project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/XMLfiles/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Paavan/IdeaProjects/sample-nopcommerce-maven-project/sample-maven-project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sample-maven-project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber java.Feature: register" />
         <item itemvalue="Cucumber java.Feature: login" />
-        <item itemvalue="TestNG.C:/Users/Paavan/IdeaProjects/sample-nopcommerce-maven-project/sample-maven-project/src/test/java/com/nopcommerce/demo/resources/XMLfiles/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/Paavan/IdeaProjects/sample-nopcommerce-maven-project/sample-maven-project/testng.xml" />
+        <item itemvalue="Cucumber java.Feature: register" />
+        <item itemvalue="Cucumber java.Feature: homepage" />
+        <item itemvalue="Cucumber java.Scenario: user should navigate to Different pages of the homepage" />
       </list>
     </recent_temporary>
   </component>

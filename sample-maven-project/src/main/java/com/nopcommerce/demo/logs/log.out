@@ -1,0 +1,13 @@
+2019-11-06 23:11:166 INFO  HomePage :29 - Click on RegisterLlink
+2019-11-06 23:11:829 INFO  RegisterPage :45 - Select Gender
+2019-11-06 23:11:954 INFO  RegisterPage :51 - Enter First name into first name Field
+2019-11-06 23:11:141 INFO  RegisterPage :57 - Enter Last name into last name Field
+2019-11-06 23:11:298 INFO  RegisterPage :63 - Select Day for DOB
+2019-11-06 23:11:518 INFO  RegisterPage :69 - select Month for DOB
+2019-11-06 23:11:674 INFO  RegisterPage :75 - Select year for DOB
+2019-11-06 23:11:886 INFO  RegisterPage :81 - Enter Random generated Email address into email field
+2019-11-06 23:11:261 INFO  RegisterPage :88 - Enter company name
+2019-11-06 23:11:476 INFO  RegisterPage :94 - Enter password
+2019-11-06 23:11:661 INFO  RegisterPage :100 - Enter confirm password
+2019-11-06 23:11:818 INFO  RegisterPage :106 - Click on Register Button
+2019-11-06 23:11:36 INFO  RegisterPage :112 - Get the Register page welcome message
